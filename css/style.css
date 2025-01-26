@@ -2,8 +2,6 @@
 
 html {
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -26,19 +24,29 @@ h2 {
   font-size: 2vw;
 }
 
-header nav {
-  width: 100vw;
-  height: auto;
+header {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin: 0 1%;
+}
+.headerLogo {
+  background-image: URL(../img/chestnut.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(255,248,220,0.3);
+}
+header nav {
+  display: flex;
+  margin: 0 auto;
+  margin: 0 0 0 auto;
   cursor: pointer;
 }
 header nav ul {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .hamMenu {
   width: 60px;
-  height: auto;
+  height: 60px;
   background-image: URL(../img/hamMenu.jpg);
   background-position: center;
   background-size: contain;
