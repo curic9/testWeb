@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: URL(../img/free.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: Impact;
+}
+
+img {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 5vw;
+}
+h2 {
+  font-size: 2vw;
+}
+
+header {
+  display: flex;
+  margin: 0 1%;
+}
+.headerLogo {
+  width: 80%;
+  height: 60px;
+  background-color: rgb(255,248,220,0.3);
+  border-radius: 20px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+}
+header nav ul {
+  font-size: 1.5vw;
+}
+.hamMenu {
+  width: 60px;
+  height: 60px;
+  background-image: URL(../img/hamMenu.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(0,0,0,0.1);
+  border-radius: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+}
+main img {
+  width: 45%;
+  max-width: 100%;
+  height: auto;
+  /* aspect-ratio: 4/3; */
+}
