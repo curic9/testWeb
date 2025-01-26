@@ -18,7 +18,7 @@ img {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 8vw;
 }
 h2 {
   font-size: 2vw;
@@ -26,22 +26,22 @@ h2 {
 
 header {
   display: flex;
+  align-items: center;
   margin: 0 1%;
 }
 .headerLogo {
-  width: 80%;
+  width: 70%;
   height: 60px;
   background-color: rgb(255,248,220,0.3);
   border-radius: 20px;
 }
 header nav {
   display: flex;
-  align-items: center;
   margin: 0 0 0 auto;
   cursor: pointer;
 }
 header nav ul {
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 .hamMenu {
   width: 60px;
@@ -67,4 +67,12 @@ main img {
   max-width: 100%;
   height: auto;
   /* aspect-ratio: 4/3; */
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+footer h2 {
+  text-align: center;
 }
