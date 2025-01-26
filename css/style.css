@@ -26,15 +26,11 @@ h2 {
   font-size: 2vw;
 }
 
-header {
-  display: flex;
-  align-items: center;
-}
 header nav {
-  width: 100%;
+  width: 100vw;
   height: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   cursor: pointer;
 }
 header nav ul {
