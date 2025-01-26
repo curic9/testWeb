@@ -31,7 +31,7 @@ header {
 }
 .headerLogo {
   width: 70%;
-  height: 60px;
+  height: auto;
   background-color: rgb(255,248,220,0.3);
   border-radius: 20px;
 }
