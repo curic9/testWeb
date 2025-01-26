@@ -30,10 +30,10 @@ header {
   margin: 0 1%;
 }
 .headerLogo {
-  background-image: URL(../img/chestnut.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 70%;
+  height: 40px;
   background-color: rgb(255,248,220,0.3);
+  border-radius: 20px;
 }
 header nav {
   display: flex;
@@ -42,7 +42,7 @@ header nav {
   cursor: pointer;
 }
 header nav ul {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 .hamMenu {
   width: 60px;
